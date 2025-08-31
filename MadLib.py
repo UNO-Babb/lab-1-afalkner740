@@ -6,7 +6,7 @@
 def main():
   print("Madlib")
   #Ask user for words
-  print("What are some words?")
+  
   #Print the story with the user supplied words.
 
 
