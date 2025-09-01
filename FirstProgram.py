@@ -8,16 +8,20 @@ def main():
   #Say hello
   print("Hello")
   #Ask for the user's name
-  print("What is your name?")
+  name = input ("What is your name? ")
   #Use the user's name in the program.
-  print(#name)
+  print("Hello " + name)
   #Ask the user for their age.
-  print("What is your age?")
-  #Tell the user what year they were born in.
-  print("2005")
+  age = int(input("What is your age? "))
+  import datetime
+  curryr = datetime.date.today().year
+  birthyr = curryr-age
+  print("You were born in year: ")
+  print(birthyr)
+  print("Or you were born in :")
+  print(birthyr + 1)
+  print("if you haven't had your birthday yet! ")
   #Assume that they have not had their birthday yet this year.
-  
-
 #Call the main function if this is the file being run.
-if Alexa == '__main__':
+if __name__ == '__main__':
     main()
